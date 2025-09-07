@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'sans': ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +49,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        brand: {
+          'primary': "hsl(var(--brand-primary))",
+          'secondary': "hsl(var(--brand-secondary))",
+          'dark': "hsl(var(--brand-dark))",
+          'light': "hsl(var(--brand-light))",
+          'hover': "hsl(var(--brand-hover))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
